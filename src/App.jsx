@@ -13,7 +13,7 @@ import Contact from './components/Contact'
 function App() {
 
   return (
-    <div className=' h-[100vh] m-auto'>
+    <div className=' h-[100vh] m-auto bg-[#FAFDF2]'>
       <div >
         <Header />
       </div>

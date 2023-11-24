@@ -19,9 +19,11 @@ const Navbar = () => {
             <Link to={`/pricing`}><li>Pricing</li></Link>
             <Link to={`/blog`}><li>Blog</li></Link>
           </ul>
-          <div className=" px-6 py-3 bg-[#CBEA7B] rounded-lg text-[#262626] font-semibold text-lg cursor-pointer hover:opacity-80">
-            Contact Us
-          </div>
+          <Link to={`/contact`}>
+            <div className=" px-6 py-3 bg-[#CBEA7B] rounded-lg text-[#262626] font-semibold text-lg cursor-pointer hover:opacity-80">
+              Contact Us
+            </div>
+          </Link>
         </div>
       </div>
     </div>
