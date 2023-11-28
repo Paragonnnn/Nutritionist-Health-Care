@@ -7,6 +7,7 @@ import image from './assets/images/image.png'
 import happycustomers1 from './assets/images/happycustomers1.png'
 import happycustomers2 from './assets/images/happycustomers2.png'
 import happycustomers3 from './assets/images/happycustomers3.png'
+import menu from './assets/menu.svg'
 
 
 export {
@@ -18,5 +19,6 @@ export {
     image,
     happycustomers1,
     happycustomers2,
-    happycustomers3
+    happycustomers3,
+    menu
 }

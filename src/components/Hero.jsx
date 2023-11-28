@@ -4,8 +4,8 @@ import { happycustomers1, happycustomers2, happycustomers3, image } from "..";
 const Hero = () => {
   return (
     <div>
-      <div className="grid grid-cols-2 place-items-center gap-12  pr-[162px]">
-        <section className=" col-span-1  ">
+      <div className="grid grid-cols-2 place-items-center gap-12 xl:pr-[162px] mb-[150px]">
+        <section className=" col-span-1 h-[710px] w-[710px]">
           <img src={image} alt="" />
         </section>
         <section className=" col-span-1 ">

@@ -6,7 +6,9 @@ const Home = () => {
   return (
     <div className=" w-full ">
       <Hero />
-      <Features />
+      <div className="max-w-[1569px]  m-auto">
+        <Features />
+      </div>
     </div>
   );
 };

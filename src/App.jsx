@@ -9,11 +9,12 @@ import Process from './components/Process'
 import Pricing from './components/Pricing'
 import Blog from './components/Blog'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
-    <div className=' h-[100vh] m-auto bg-[#FAFDF2]'>
+    <div className=' h-[100vh] m-auto relative'>
       <div >
         <Header />
       </div>
@@ -28,6 +29,9 @@ function App() {
           <Route path='/contact' element={<Contact />}/>
         </Routes>
       </div>
+      <footer className=' mt-[0]'>
+        <Footer />
+      </footer>
     </div>
     
   )
