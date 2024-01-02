@@ -4,7 +4,7 @@ import { bookmark, heart } from "..";
 
 const Blog = () => {
   return (
-    <div>
+    <div >
       <header className=" px-64 mb-16">
         <h1 className=" text-4xl font-bold text-[#262626] text-center">
           Our Blogs

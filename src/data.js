@@ -130,3 +130,24 @@ export const testimonials = [
         namee: 'Emily Davis'
     },
 ]
+
+export const pricing = [
+    {
+        plan: 'Basic Plan',
+        discount: 'Up to 50% off on Yearly Plan',
+        paragraph: 'Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.',
+        price: '$49',
+    },
+    {
+        plan: 'Premium Plan',
+        discount: 'Up to 50% off on Yearly Plan',
+        paragraph: "Upgrade to our Premium Plan for enhanced features. In addition to the Basic Plan, you'll receive video consultations, priority support, and personalized recipe recommendations.",
+        price: '$79',
+    },
+    {
+        plan: 'Ultimate Plan',
+        discount: 'Up to 50% off on Yearly Plan',
+        paragraph: "Experience the full benefits of personalized nutrition coaching with our Ultimate Plan. Enjoy all the features of the Premium Plan, along with 24/7 chat support and exclusive workshops.",
+        price: '$99',
+    },
+]

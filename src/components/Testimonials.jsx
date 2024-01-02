@@ -4,12 +4,12 @@ import { quotation } from "..";
 
 const Testimonials = () => {
   return (
-    <div>
+    <div className=" mb-24">
       <header className=" px-64 mb-16">
         <h1 className="text-4xl font-bold text-[#262626] text-center">
           Our Testimonials
         </h1>
-        <p className=" text-center">
+        <p className=" text-center text-[#333]">
           Our satisfied clients share their success stories and experiences on
           their journey to better health and well-being.
         </p>
