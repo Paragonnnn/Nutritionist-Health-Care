@@ -8,6 +8,13 @@ import happycustomers1 from './assets/images/happycustomers1.png'
 import happycustomers2 from './assets/images/happycustomers2.png'
 import happycustomers3 from './assets/images/happycustomers3.png'
 import menu from './assets/menu.svg'
+import top_arrow from './assets/top_arrow.svg'
+import location from './assets/location.svg'
+import gmail from './assets/gmail.svg'
+import phone from './assets/phone.svg'
+import heart from './assets/heart.svg'
+import bookmark from './assets/bookmark.svg'
+import quotation from './assets/quotation.svg'
 
 
 export {
@@ -20,5 +27,12 @@ export {
     happycustomers1,
     happycustomers2,
     happycustomers3,
-    menu
+    menu,
+    top_arrow,
+    gmail,
+    location,
+    phone,
+    heart,
+    bookmark,
+    quotation
 }

@@ -4,6 +4,17 @@ import featuresvg3 from './assets/featuresvg3.svg'
 import featuresvg4 from './assets/featuresvg4.svg'
 import featuresvg5 from './assets/featuresvg5.svg'
 import featuresvg6 from './assets/featuresvg6.svg'
+import blog_image_1 from './assets/images/blog image 1.png'
+import blog_image_2 from './assets/images/blog image 2.png'
+import blog_image_3 from './assets/images/blog image 3.png'
+import blog_image_4 from './assets/images/blog image 4.png'
+import blog_avatar_1 from './assets/images/blog avatar 1.png'
+import blog_avatar_2 from './assets/images/blog avatar 2.png'
+import blog_avatar_3 from './assets/images/blog avatar 3.png'
+import blog_avatar_4 from './assets/images/blog avatar 4.png'
+import testimonial_image_1 from './assets/images/testimonial image 1.png'
+import testimonial_image_2 from './assets/images/testimonial image 2.png'
+import testimonial_image_3 from './assets/images/testimonial image 3.png'
 
 
 export const features = [
@@ -36,5 +47,86 @@ export const features = [
         svg: `${featuresvg6}`,
         title: 'Nutritional Education and Workshops',
         content: 'Expand your knowledge of nutrition through informative articles and educational workshops. Our nutritionists will equip you with the knowledge and tools to make informed choices for long-term success.'
+    },
+]
+
+export const blog = [
+    {
+        top: {
+            image: `${blog_image_1}`,
+            text: 'Weight Loss',
+            heading: 'The Benefits of Hydration for Weight Loss',
+            paragraph: 'Discover how staying hydrated can support your weight loss goals and improve overall health.',
+
+        },
+        bottom: {
+            avatar: `${blog_avatar_1}`,
+            namee: 'Emily Johnson',
+            date: '23 May 2023 - 5 min read'
+        }
+
+    },
+    {
+        top: {
+            image: `${blog_image_2}`,
+            text: 'Mindful Eating',
+            heading: 'Cultivating a Healthy Relationship with Food',
+            paragraph: 'Learn how practicing mindful eating can help you develop a healthier relationship with food and improve your overall well-being.',
+
+        },
+        bottom: {
+            avatar: `${blog_avatar_2}`,
+            namee: 'Sarah Thompson',
+            date: '23 May 2023 - 5 min read'
+        }
+
+    },
+    {
+        top: {
+            image: `${blog_image_3}`,
+            text: 'Understanding Macronutrients',
+            heading: 'Carbohydrates, Proteins, and Fats',
+            paragraph: 'Get a comprehensive understanding of macronutrients and their role in your diet for optimal health and weight management.',
+
+        },
+        bottom: {
+            avatar: `${blog_avatar_3}`,
+            namee: 'Mark Wilson',
+            date: '23 May 2023 - 5 min read'
+        }
+
+    },
+    {
+        top: {
+            image: `${blog_image_4}`,
+            text: 'Healthy Snacks on the Go',
+            heading: 'Quick and Nutritious Options',
+            paragraph: 'Explore a variety of convenient and healthy snack ideas to keep you fueled throughout the day.',
+
+        },
+        bottom: {
+            avatar: `${blog_avatar_4}`,
+            namee: 'Emily Johnson',
+            date: '23 May 2023 - 5 min read'
+        }
+
+    },
+] 
+
+export const testimonials = [
+    {
+        paragraph: "I can't thank Nutritionist enough for their personalized nutrition coaching. It has completely transformed my approach to food and helped me shed those extra pounds. Highly recommended!",
+        image: `${testimonial_image_1}`,
+        namee: 'Jennifer Anderson'
+    },
+    {
+        paragraph: "Nutritionist has been a game-changer for me. The expert guidance and support I received from their team made my weight loss journey so much easier. Thank you!",
+        image: `${testimonial_image_2}`,
+        namee: 'Robert Johnson'
+    },
+    {
+        paragraph: "I had struggled with my weight for years until I found Nutritionist. Their personalized approach and tailored nutrition plan made all the difference. I've never felt better!",
+        image: `${testimonial_image_3}`,
+        namee: 'Emily Davis'
     },
 ]
